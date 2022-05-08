@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CssVistas/vistas.css">
+    <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="/img/icons8-bbb-500.png" alt="Logo">
+                <h2 class="nombre-empresa">Empresa Tal</h2>
+            </div>
+            <nav>
+                <a href="/Vistas/index.html" class="nav-link"> Inicio</a>
+                <a href="" class="nav-link"> Login</a>
+                <a href="" class="nav-link"> </a>
+            </nav>
+        </header>
+        <form action="" class="row">
+            <section>
+                <h1>Registro de RH</h1>
+                <br>
+                <label for="Edad">Edad</label>
+                <input type="number" id="number" name="number" min="18" max="65" value="edad">
+                <br>
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" value="">
+                <br>
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" value="">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="@" placeholder="ejemplo.s@gmail.com">
+                <br>
+                <label for="Jornada">Jornada</label>
+                <select name="jornada" id="jornada">
+                    <option value="Maaañana">Maaañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                    <option value="Fines de semana">Fines de semana</option>
+                </select>
+                <br>
+                <label for="Fecha">Fecha de nacimiento</label>
+                <input type="date" id="fecha" name="fecha" max="2004-05-03">
+            </section>
+            <br>
+            <label for="Estado">Tipo de contrato</label>
+            <br>
+            <label for="Definido">Definido</label>
+            <input type="radio" id="definido" name="definido">
+            <br>
+            <label for="Indefinido">Indefinido</label>
+            <input type="radio" id="indefinido" name="indefinido">
+            <br>
+            <br>
+            <label for="perfil">Descripcion</label>
+            <br>
+            <textarea name="Perfil" id="Perfil" cols="30" rows="10"></textarea>
+
+            <div>
+                <input type="submit" name="enviar" value="Enviar Datos"/>
+                <p><button type="reset">Reiniciar</button></p>
+            </div>
+        </form>
+    </body>
+    </html>
